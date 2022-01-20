@@ -82,7 +82,7 @@
             $totalgrade= "invalid Number";
         }
 
-      }  
+     
       
     ?>
     <table border="1px solid" width="50%">
@@ -129,13 +129,16 @@
         <tr>
             <td>8</td>
             <th>Total Marks</th>
-            <td><?php echo   $Totalmarks; ?> </td>
+            <td><?php echo   $Total; ?> </td>
         </tr>
         <tr>
             <td>89</td>
             <th>Grade</th>
             <td><?php echo   $totalgrade; ?> </td>
         </tr>
+        <?php
+         }  
+         ?>
     </table>
 </body>
 </html>
